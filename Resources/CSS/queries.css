@@ -1,0 +1,125 @@
+/*---big----*/
+@media only screen and (max-width:1200px){
+   
+    .hero-text-box{
+    
+    width: 100%;
+    padding: 0 2%;
+   
+}
+.row{padding: 0 2%;}
+}
+/*---ipad 1023px----*/
+@media only screen and (max-width:1023px){
+        body{font-size: 18px;}
+        section{padding: 40px 0;}
+        .works-step {margin-bottom: 20px;}
+            
+
+        
+        .long-copy{
+            width: 80%;
+            margin-top: 10%;
+        }
+        .step-box{margin-top:10px;}
+        
+        .step-box:last-child { margin-top: 10px;}
+           
+            
+        
+        .app-screen{width: 50%;}
+        .city-feactures{font-size: 80%;}
+        .box{font-size: 80%;}
+        .plan-box{
+            width: 100%;
+            font-size: 70%;
+        }
+        
+            
+}
+/*---small phhone to small tablet 481 to 767px----*/
+@media only screen and (max-width:767px){
+
+    body{font-size:16px;}
+    section{padding: 30px,0;}
+    .plan-box{
+        width: 100%;
+        font-size: 70%;
+    }
+    .row,
+    .hero-text-box{
+        padding: 0 4%;
+    }
+    .col{ width: 100%;
+
+    }
+    .step-box:first-child{
+    
+        text-align: center;
+        padding-right: 4%;
+    }
+
+    .main-nav{
+        display: none;
+    }
+    .main-nav li{
+        display: block;
+        margin-top: 0;
+        
+    }
+    .main-nav li a:link,
+    .main-nav li a:visited{
+        display: block;
+        border: 0;
+        padding: 10px  0;
+        font-size: 100%;
+
+    }
+
+    .main-nav{
+        margin-top:10px;
+        float: left;
+        
+        
+    }
+    
+    .sticky .main-nav li a:link,
+    .sticky .main-nav li a:visited{
+       padding: 10px 0;
+        
+    }
+    .sticky .mobile-nav-icon i{
+        color: #555;
+    }
+    .sticky .mobile-nav-icon {
+       margin-top: 10px;
+    }
+       
+    .mobile-nav-icon{
+        display: inline-block;
+       
+    }
+    .app-screen{padding-left: 10%;}
+
+    .works-step div{
+      
+        text-align: center;
+        font-size: 100%;
+        padding: 20px;
+       }
+    .works-step p{
+        font-size: 80%;
+        padding: 20px;
+    }
+    h2{
+        font-size: 150%;
+    }
+    h1{
+        font-size: 100%;
+    }
+
+}
+/*---small phone 0 to 480px----*/
+@media only screen and (max-width:480px){
+
+}
